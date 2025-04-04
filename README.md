@@ -1,57 +1,9 @@
-# Project Name
+# App Service NodeJS WebJobs Quickstart
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
+Getting started with Azure App Service WebJobs using NodeJS. Deploy and run your first Python WebJob on App Service. This WebJob outputs the curren time to the console.
 
 ### Prerequisites
+You need to have an App Service Plan and Web App using NodeJS 20 LTS to run this application.
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+### Running the App
+After cloning the repo, create a zip archive of run.sh and webjob.js, for example, `zip webjob.zip run.sh webjob.js`. Then upload this zip to your App Service Web App under Settings > WebJobs > Add. After naming your WebJob and choosing Scheduled or Continuous, you can run the WebJob manually and inspect the logs to ensure it ran properly.
