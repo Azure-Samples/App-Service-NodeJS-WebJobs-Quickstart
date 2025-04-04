@@ -1,6 +1,6 @@
 # App Service NodeJS WebJobs Quickstart
 
-Getting started with Azure App Service WebJobs using NodeJS. Deploy and run your first Python WebJob on App Service. This WebJob outputs the curren time to the console.
+Getting started with Azure App Service WebJobs using NodeJS. Deploy and run your first Python WebJob on App Service. This WebJob outputs the current time to the console.
 
 ### Prerequisites
 You need to have an App Service Plan and Web App using NodeJS 20 LTS to run this application.
